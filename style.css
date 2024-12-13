@@ -1,0 +1,90 @@
+body {
+    background-color: #5F6478;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    text-decoration: none;
+    color: #F2E3DE;
+}
+
+.text {
+    color: #F2E3DE;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: larger;
+}
+
+.prez {
+    margin-top: 10rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prez_text {
+    margin-top: 70px;
+}
+
+.pdp {
+    width: 15rem;
+    border-radius: 100%;
+}
+
+#clouds {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: -500px;
+}
+
+.clouds_img {
+    width: 100%
+}
+
+.space {
+    height: 1500px;
+}
+
+.about_me, .projects, .contact_me {
+    gap: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_work {
+    margin: 50px;
+    display: flex;
+    gap: 20rem;
+}
+
+p {
+    width: 30rem;
+}
